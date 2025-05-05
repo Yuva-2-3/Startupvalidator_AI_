@@ -4,7 +4,7 @@ const API_KEY = "AIzaSyDid2JSNZbtfS8sBHCpunJQ7k4H02Wb06A";
 
 // Initialize the Gemini API
 const genAI = new GoogleGenerativeAI(API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-002" });
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 export const validateStartupIdea = async (
   name: string,
